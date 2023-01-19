@@ -22,5 +22,8 @@ section p  {
 }
 
 .figure {
-    background-color: #black;
+    background-color: black;
+    color: white;
+    width: 33%;
+    float: left;
 }
