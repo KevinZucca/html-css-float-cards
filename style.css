@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .container {
@@ -23,24 +23,28 @@ section p  {
 
 .figure {
     background-color: black;
-    height: 100px;
-    width: 33%;
+    width: 30%;
     color: white;
     float: left;
-    margin: 10px;
+    margin: 15px;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.photo {
+.figure .photo {
     height: 100px;
 }
 
 .information {
-    height: 100px;
-    display: inline-block;
+    float: right;
+    padding: 20px 30px 20px 0px;
+}
+
+.information a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #43c3fc;
+    font-weight: bold;
+}
+
+.information h3 {
+    font-size: medium;
 }
