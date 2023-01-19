@@ -5,3 +5,22 @@
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header h1 {
+    color: #e53170;
+    text-align: center;
+}
+
+section p  {
+    text-align: center;
+}
+
+.figure {
+    background-color: #black;
+}
