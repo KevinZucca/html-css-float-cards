@@ -22,12 +22,22 @@ section p  {
     margin-bottom: 30px;
 }
 
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .figure {
     background-color: black;
     width: 30%;
     color: white;
     float: left;
     margin: 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    height: 100px;
 }
 
 .figure .photo {
