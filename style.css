@@ -36,17 +36,17 @@ section p  {
     color: white;
     float: left;
     margin: 15px;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-    height: 100px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 
 .figure .photo {
     height: 100px;
+    float: left;
 }
 
 .information {
-    float: right;
-    padding: 20px 30px 20px 0px;
+    float: left;
+    padding: 20px 30px 20px 10px;
 }
 
 .information a {
