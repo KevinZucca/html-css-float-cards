@@ -32,6 +32,7 @@ section p  {
 
 .figure {
     background-color: black;
+    height: 80px;
     width: 30%;
     color: white;
     float: left;
@@ -40,17 +41,17 @@ section p  {
 }
 
 .figure .photo {
-    height: 100px;
+    height: 80px;
     float: left;
 }
 
 .information {
     float: left;
-    padding: 20px 30px 20px 10px;
+    padding: 10px 30px 20px 10px;
 }
 
 .information a {
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-decoration: none;
     color: #43c3fc;
     font-weight: bold;
@@ -58,4 +59,8 @@ section p  {
 
 .information h3 {
     font-size: medium;
+}
+
+.information .profession {
+    font-size: 0.8em;
 }
